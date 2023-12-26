@@ -12,6 +12,15 @@ public class StackAndQueue{
         System.out.println("");
         stack.display();
 
+        System.out.println("Popping elements:");
+        stack.popFirst();
+        stack.display();
+
+        
+
+
+
+
         
     }
 }
