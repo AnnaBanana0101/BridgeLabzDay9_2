@@ -30,12 +30,9 @@ public class StackAndQueue{
         System.out.println("");
         queue.display();
 
-        // System.out.println("Popping elements:");
-        // stack.popFirst();
-        // stack.display();
-
-
-
+        System.out.println("Popping elements:");
+        queue.popLast();
+        queue.display();
 
         
     }
