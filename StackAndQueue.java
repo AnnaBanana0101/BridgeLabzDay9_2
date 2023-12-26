@@ -16,7 +16,23 @@ public class StackAndQueue{
         stack.popFirst();
         stack.display();
 
-        
+        System.out.println("");
+
+        System.out.println("Queue implementation using LL");
+        System.out.println("");
+
+        LinkedList<Integer> queue = new LinkedList<>();
+
+        System.out.println("Pushing elements:");
+        queue.pushQueue(70);
+        queue.pushQueue(30);
+        queue.pushQueue(56);
+        System.out.println("");
+        queue.display();
+
+        // System.out.println("Popping elements:");
+        // stack.popFirst();
+        // stack.display();
 
 
 
