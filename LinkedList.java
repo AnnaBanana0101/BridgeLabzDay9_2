@@ -12,7 +12,7 @@ public class LinkedList<T> {
     }
 
     public void pushStack(T data) {
-        Node<T> newNode = new Node(data);
+        Node<T> newNode = new Node<>(data);
 
         if (head == null) {
             head = newNode;
@@ -60,12 +60,12 @@ public class LinkedList<T> {
         return count;
     }
 
-    public void insertNodeAtPosition(int data, int position) {
+    public void insertNodeAtPosition(T data, int position) {
         if (position < 0 || position > size()) {
             System.out.println("Invalid");
             return;
         }
-        Node<T> newNode = new Node(data);
+        Node<T> newNode = new Node<>(data);
 
         Node<T> temp = head;
 
